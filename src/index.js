@@ -12,7 +12,7 @@ root.render(
  
     <WindowContext>
     <MenuContext>
-      <BrowserRouter>
+      <BrowserRouter basename="/Ee">
         <App />
       </BrowserRouter>
     </MenuContext>
