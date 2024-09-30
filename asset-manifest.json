@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Ee/static/css/main.871faf4e.css",
+    "main.js": "/Ee/static/js/main.2a3bc5cb.js",
+    "static/media/logo1.png": "/Ee/static/media/logo1.f731fc49ecb8ce71f3ea.png",
+    "static/media/Logo_Eye Engineer_Olive.png": "/Ee/static/media/Logo_Eye Engineer_Olive.ec5a12df7f18c6957a5d.png",
+    "static/media/fa-solid-900.ttf": "/Ee/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/Ee/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Ee/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Ee/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/جديد-زيتي1.png": "/Ee/static/media/جديد-زيتي1.5868d954dc14e4dd32b9.png",
+    "static/media/تقييم عقاري-زيتي.png": "/Ee/static/media/تقييم عقاري-زيتي.7215e69c6da68a545e2e.png",
+    "static/media/إدارة مشاريع-زيتي.png": "/Ee/static/media/إدارة مشاريع-زيتي.36546ed90098cba1ca92.png",
+    "static/media/fa-regular-400.ttf": "/Ee/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/هندسة-زيتي.png": "/Ee/static/media/هندسة-زيتي.ef5f5fb88052f76e43b3.png",
+    "static/media/مصطلحات هندسية-زيتي.png": "/Ee/static/media/مصطلحات هندسية-زيتي.323289b5bb6679041514.png",
+    "static/media/فيديوهات تعليمية-زيتي.png": "/Ee/static/media/فيديوهات تعليمية-زيتي.1045238ea7132ddba178.png",
+    "static/media/مقالات هندسية-زيتي.png": "/Ee/static/media/مقالات هندسية-زيتي.409863cc4af3ca13a429.png",
+    "static/media/fa-regular-400.woff2": "/Ee/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/user3.png": "/Ee/static/media/user3.174cd90b5a7f1d66f9bc.png",
+    "static/media/rar.png": "/Ee/static/media/rar.c185674b9373dcf53322.png",
+    "static/media/imageN.jpg": "/Ee/static/media/imageN.df669226ecf830f9a91a.jpg",
+    "static/media/fa-v4compatibility.ttf": "/Ee/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Ee/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/Ee/index.html",
+    "main.871faf4e.css.map": "/Ee/static/css/main.871faf4e.css.map",
+    "main.2a3bc5cb.js.map": "/Ee/static/js/main.2a3bc5cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.871faf4e.css",
+    "static/js/main.2a3bc5cb.js"
+  ]
+}
