@@ -1,0 +1,13 @@
+.cg{
+    color: #084B22;
+}
+.card{
+   border: 2px solid #ED7200;
+   outline: 3px solid #ED7200;
+   background-color: #F0FDF4;
+   margin-bottom: 15px;
+ 
+}
+.text-black-80{
+    font-size: 17px;
+}

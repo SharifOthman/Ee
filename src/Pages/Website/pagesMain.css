@@ -1,0 +1,47 @@
+.co{
+    color: #ED7200;
+}
+
+.co:hover{
+    color:#084B22;
+}
+
+.fst{
+    font-size: 22px;
+}
+
+.contact-form {
+    border: 1px solid #ED7200;
+    outline: 4px solid #ED7200;
+    padding: 20px;
+    background-color: #f5fff5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.illustration {
+    max-width: 100%;
+    height: auto;
+}
+.full-width {
+    width: 100%;
+}
+
+.btn-send{
+    background-color: #084B22;
+    color: white;
+}
+
+.btn-send:hover{
+    background-color: #1b6437;
+    color: white;
+
+}
+.form-control{
+    background-color: #f5fff5;
+    margin-bottom: 10px;
+}
+.form-control:focus{
+    background-color: #f5fff5;
+    margin-bottom: 10px;
+    border:1px solid #084B22;
+}

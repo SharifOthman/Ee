@@ -1,0 +1,126 @@
+.footer7 {
+    background-color: #F0FDF4;
+  }
+
+  .footer6 {
+    background-color: #15202B;
+
+  }
+
+  .footer7 .copyright > span {
+    color:#084B22;
+  }
+  .footer6 .copyright > span {
+    color:white;
+  }
+  .footer .copyright div span {
+    color: #ED7200;
+  }
+  .h7{
+    color: #084B22 !important;
+ }
+ .h7{
+    color: #084B22 !important;
+ }
+ .h6{
+  color: white !important;
+}
+.h6{
+  color: white !important;
+}
+ .list-unstyled7 li{
+    display: flex;
+    color: #084B22;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+  }
+  .list-unstyled6 li{
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+
+  }
+
+  .list-unstyled7 li:hover{
+    color: #ED7200;
+  }
+
+  .list-unstyled6 li:hover{
+    color: #ED7200;
+  }
+  .d-block .i7{
+    color: #084B22;
+    font-size: 20px;
+  }
+  .d-block .i6{
+    color: #ED7200;
+    font-size: 20px;
+  }
+
+  .text-light{
+    font-size: 25px;
+    text-align: center;
+  }
+  .whatsapp-floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #084B22; /* WhatsApp green */
+    color: white;
+    padding: 10px;
+    border-radius: 60%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 50px;
+    z-index: 1000; /* Ensure it is above other elements */
+    text-align: center;
+    line-height: 40px; /* Center the icon vertically */
+  }
+  
+  .whatsapp-floating-icon:hover {
+    background-color: #176836; /* Darker green on hover */
+  }
+  
+
+  .fpf7{
+    font-size: 17px;
+    font-weight: 600;
+    color: #084B22 !important;
+    text-align:center;
+  }
+  .fpf6{
+    font-size: 17px;
+    font-weight: 600;
+    color: white !important;
+    text-align:center;
+
+  }
+.iconscenter{
+  justify-content: center;
+}
+.csi{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.ii6{
+  color:white !important;
+  font-size: 16px;
+margin-top: 5px;
+
+}
+.ii6:hover{
+  color:#ED7200 !important;
+}
+.ii7{
+  color:#084B22 !important;
+  font-size: 16px;
+margin-top: 5px;
+}
+.ii7:hover{
+  color:#ED7200 !important;
+}
+.footer{
+  border-top:2px solid #084B22;
+}

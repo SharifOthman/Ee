@@ -1,0 +1,31 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+.ctmf {
+  color: grey;
+}
+.bct {
+  background-color: #f0fdf4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+  .wt {
+    width: 70%;
+  }
+}
+@media (max-width: 1200px) {
+  .wt {
+    width: 90%;
+  }
+}
+.line_t{
+    width: 70%;
+    margin: 20px auto;
+    color: #ED7200;
+}
+.mb{
+    margin-bottom: 15px;
+}

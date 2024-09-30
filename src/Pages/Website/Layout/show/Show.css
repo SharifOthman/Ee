@@ -1,0 +1,35 @@
+.video-container {
+    border: 5px solid #ED7200;
+    padding: 10px;
+    background-color: #F0FDF4;
+    margin-bottom: 20px;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: auto;
+  }
+  
+  .download-text {
+    font-weight: bold;
+  }
+  
+  .download-link img {
+    width: 24px;
+    height: 24px;
+  }
+  .fa-download{
+    font-size: 25px;
+    color: #ED7200;
+  }
+  .fa-link{
+    font-size: 25px;
+    color: gray;
+  }
+  .download-link{
+    cursor: pointer;
+  }
+  .fa-share{
+    color: rgb(22, 22, 86);
+    font-size: 25px;
+  }

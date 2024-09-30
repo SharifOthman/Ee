@@ -1,0 +1,13 @@
+.imgpro{
+    border: 3px solid #084B22;
+    border-radius: 50%;
+    width: 100% !important;
+    overflow: hidden;
+}
+.hlo{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}

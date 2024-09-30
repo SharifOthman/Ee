@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bodyAuth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    /* background: url('../../../../Assets/images/logo1.png') no-repeat ; */
+    background-size: cover; 
+    background-position: center;
+}
+
+.wrapper{
+    width: 420px;
+    background-color: #F0FDF4;
+    border: 4px solid #ED7200;
+    /* backdrop-filter: blur(20px); */
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    color: #084A22;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-boxx{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+} 
+
+.input-boxx input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #6B7280;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #084A22;
+    padding: 20px 45px 20px 20px;
+}
+
+
+.input-boxx input::placeholder {
+    color: #6B7280;
+}
+.input-boxx input:focus {
+    border: 2px solid #084A22;
+    
+}
+
+.input-boxx i{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  font-size: 20px;
+  transform: translateY(-50%);
+  /* pointer-events: none; */
+}
+
+
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forget a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #ED7200;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    
+}
+.wrapper .btn:hover{
+    background-color: #084A22;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper{
+        width: 390px;
+        font-size: 30px;
+    }
+    
+  }
+  .tcg{
+    color: #084A22 !important;
+  }
+
+  .error-message{
+    color: red;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .error-message::before{
+    content: '*';
+   
+  }
+
+  .error{
+    color: red;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .error::before{
+    content: '*';
+   
+  }
+
+  

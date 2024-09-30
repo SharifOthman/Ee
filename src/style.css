@@ -1,0 +1,29 @@
+.container{
+    padding:0 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Cairo', sans-serif !important;
+} 
+
+::-webkit-scrollbar {
+    width: 10px;  
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+
+/* شريط التمرير نفسه */
+::-webkit-scrollbar-thumb {
+    background: #004D00; 
+    border-radius: 6px; /* نصف القطر للتدوير */
+}
+
+/* شريط التمرير عند التفاعل (hover) */
+::-webkit-scrollbar-thumb:hover {
+    background: #108910; 
+}

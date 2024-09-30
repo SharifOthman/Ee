@@ -1,0 +1,41 @@
+.news-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 75px;
+    padding: 10px 0;
+    position: relative;
+}
+
+.news-container7{
+    background-color: white;
+}
+.news-container6{
+    background-color: #1D2A35;
+    color: white !important;
+}
+.marquee {
+    width: 80%;
+    display: inline-block;
+    animation: marquee 40s linear infinite;
+    
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.news-item {
+    display: inline-block;
+    margin-right: 50px; /* المسافة بين الأخبار */
+    font-size: 1.2em;
+    direction: rtl; /* يضمن الاتجاه من اليمين لليسار */
+}

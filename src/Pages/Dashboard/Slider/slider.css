@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bodyAuthf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    /* background: url('../../../../Assets/images/logo1.png') no-repeat ; */
+    background-size: cover; 
+    background-position: center;
+    margin: 0 auto;
+}
+
+.wrapperf{
+    width: 800px;
+    background-color: #F0FDF4;
+    border: 4px solid #ED7200;
+    /* backdrop-filter: blur(20px); */
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    color: #084A22;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+
+.wrapperf h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapperf .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+} 
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #6B7280;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #084A22;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-image input{
+    padding: 20px 45px 20px 20px;
+    margin: 0;
+    font-size: 100%;
+
+}
+/*  */
+
+
+
+
+.input-box input::placeholder {
+  color: transparent;
+}
+
+.input-box input:focus,
+.input-box input:not(:placeholder-shown) {
+  border: 2px solid #084a22;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #084a22;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  font-size: 15px;
+}
+
+.input-box input:focus + label,
+.input-box input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 15px;
+  background: transparent;
+  padding: 0 5px;
+  color: #084a22;
+  font-size: 12px;
+}
+
+
+
+/*  */
+
+.input-box input::placeholder {
+    color: transparent;
+}
+.input-box input:focus {
+    border: 2px solid #084A22;
+    
+}
+
+
+
+.wrapperf .btn{
+    width: 30%;
+    height: 45px;
+    background-color: #ED7200;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    
+}
+.wrapperf .btn:hover{
+    background-color: #084A22;
+}
+
+.wrapperf .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapperf{
+        width: 360px;
+        font-size: 30px;
+    }
+    .wrapperf .btn{
+        width: 100%;
+    }
+    .input-image {
+        font-size: 15px;
+      }
+      .wrapperf{
+        padding: 20px 10px;
+      }
+      .image_span{
+        display: block;
+        margin-top: 5px;
+      }
+    
+  }
+
+  @media only screen and (min-width: 768px) {
+    .bodyAuthf{
+        width: 90%;
+        margin: 0 auto;
+    }
+   
+  }
+  .tcg{
+    color: #084A22 !important;
+  }
+
+  .input-image {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #0f7638; /* Example styling */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.custom-file-upload:hover {
+  background-color: #4b9c4f; /* Example styling for hover state */
+}
+
+#file-input {
+  display: none;
+}
+
+/* table */
+.tt{
+  color: #ED7200;
+  padding: 10px;
+}
+.scm{
+ margin: 20px auto;
+ width:30% ;
+}
+.aaa{
+  text-align: center;
+} 
+.table-container {
+    width: 91%;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow-x: auto;
+    background-color: #fff; /* إضافة خلفية بيضاء لتحديد حواف الجدول */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* إضافة ظل للجدول */
+    
+  }
+
+  
+    
+    table {
+      width: 95%;
+      border-collapse: collapse;
+      margin: 10px auto;
+    }
+    
+     td,  th {
+      padding: 13px;
+      border-bottom: 2px solid #D9FAE5;
+      border-top: 2px solid #D9FAE5;
+    }
+    
+    table thead th {
+      background-color: #F0FDF4 !important;
+      color: #084B22;
+      /* font-weight: bold; */
+      font-size: 20px;
+      /* text-align: center; */
+      font-weight:600;
+
+    }
+    
+    table tbody td {
+      background-color: #fff;
+      /* text-align: center; */
+      color: #084A22;
+      font-size: 18px;
+      font-weight:600;
+    }
+    /* .aaa{
+      width: 20%;
+    } */
+    @media (min-width: 1200px) {
+   .aaa{
+      width: 20%;
+    } 
+  
+  
+    }
+    @media (max-width: 1000px) {
+     
+      .table-container{
+        background-color:transparent;
+        box-shadow: none;
+      }
+      table thead {
+        display: none;
+      }
+    
+      table, table tbody, table tr, table td {
+        display: block;
+        width: 100%;
+      }
+    
+      table tr {
+        margin-bottom: 15px;
+       
+      }
+    
+      table td {
+        text-align: center;
+        /* padding-left: 50%;
+        position: relative; */
+      }
+    
+      /* table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+        background-color: #fc6011;
+        color: #FFF;
+      } */
+      .bt{
+        width: 100%;
+      }
+      .scm{
+        width: 70%;
+      }
+      .btn-redd{
+        font-size: 15px;
+      }
+      li{
+        font-size: 20px;
+      }
+  
+    }
+    small{
+      font-size: 16px;
+      display:block;
+    }
+    small::before{
+      content: '*';
+      padding-left: 5px;
+    }
+    label{
+      font-size: 18px;
+    }
+
+    .btnct{
+        background-color: #1F2937;
+        width: 80%;
+        color: white;
+        font-size: 21px;
+    }
+
+    .btnct:hover{
+        background-color: #111827;
+        color: white;
+    }
+    /* tag a for table style */
+    .ats{
+      color: #084A22;
+      text-decoration: underline !important;
+    }
+
+    /* select  */
+  .form-select{
+    background-color: #F0FDF4;
+  }
+
+  
+.form-select:focus {
+  outline: none;
+  border-color: #084A22; 
+  box-shadow: 0 0 5px #084A22;
+}
+
+.form-select option {
+  background-color: #F0FDF4;
+  color: #333333;
+}
+.form-select option:checked {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.btn-redd{
+ cursor: pointer;
+ color: red !important;
+}
+
+.btn-gray{
+  padding: 0 5px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
